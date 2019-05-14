@@ -48,9 +48,9 @@ def display_help():
       qotd.py [OPTION]
 
   OPTIONS
-      -h, -help    Display help.
-      -l, -list    List all available quotes and calls.
-      -r, -random  Displays a random quote.
+      -h, --help    Display help.
+      -l, --list    List all available quotes and calls.
+      -r, --random  Displays a random quote.
 """
     print(help)
 
@@ -64,13 +64,13 @@ def print_quote(quote_arg):
 def parse_args(arg_list):
     if len(arg_list) > 2:
         sys.exit("FATAL: Only 1 argument accepted.")
-    elif len(arg_list) == 1 or arg_list[1] == "-h" or arg_list[1] == "-help":
+    elif len(arg_list) == 1 or arg_list[1] == "-h" or arg_list[1] == "--help":
         display_help()
-    elif arg_list[1] == "-l" or arg_list[1] == "-list":
+    elif arg_list[1] == "-l" or arg_list[1] == "--list":
         print("There are " + str(len(QUOTES.keys())) + " quotes.")
         for key in QUOTES:
             print("  " + key + " >> " + QUOTES[key])
-    elif arg_list[1] == "-r" or arg_list[1] == "-random":
+    elif arg_list[1] == "-r" or arg_list[1] == "--random":
         print_quote(random.choice(list(QUOTES.keys())))
     elif arg_list[1] in QUOTES.keys():
         print_quote(arg_list[1])

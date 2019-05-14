@@ -1,9 +1,11 @@
 # Quote of the Day
+A simple Python script that generates badass & ridiculous one-liners from games, movies, media, etc.
 
-Badass & ridiculous one-liners from games, movies, media, etc.
+## Usage
+Help provided with ```-h``` or ```--help``` arguments.
 
 ## Installation
-Run this by adding execution path to the .bashrc file:
+Run with random quotes by adding execution path to the .bashrc file:
 
 ```
 ~/qotd.py -r
