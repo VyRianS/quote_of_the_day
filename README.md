@@ -16,7 +16,7 @@ OPTIONS
 
 Calling a random quote:
 ```
-python3.6 ~/qotd.py -r 
+$ python3.6 ~/qotd.py -r 
 
     "YOU DIED" - Dark Souls.
 
