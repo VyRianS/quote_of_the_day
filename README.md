@@ -22,10 +22,5 @@ $ python3.6 ~/qotd.py -r
 
 ```
 
-## Installation
-Generate random quotes upon terminal login via Bash by adding execution path to the .bashrc file:
-
-```
-python3.6 ~/qotd.py -r
-```
+Generate random quotes upon terminal login by adding execution path to home profiles!
 
