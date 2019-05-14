@@ -28,5 +28,5 @@ $ python3.6 ~/qotd.py --bioshock_andrew_kindly
     "Would you kindly?" - Andrew Ryan, Bioshock.
 ```
 
-Generate random quotes upon terminal login by adding execution path to home profiles!
+Generate random quotes upon terminal login by running this script in the home profiles!
 
