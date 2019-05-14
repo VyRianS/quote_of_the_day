@@ -22,5 +22,13 @@ $ python3.6 ~/qotd.py -r
 
 ```
 
+Calling a specific quote (view list with ```-l``` or ```--list``` for options):
+```
+$ python3.6 ~/qotd.py --bioshock_andrew_kindly
+
+    "Would you kindly?" - Andrew Ryan, Bioshock.
+
+```
+
 Generate random quotes upon terminal login by adding execution path to home profiles!
 
