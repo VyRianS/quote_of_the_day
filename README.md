@@ -14,6 +14,14 @@ OPTIONS
     -r, --random  Displays a random quote.
 ```
 
+Calling a random quote:
+```
+python3.6 ~/qotd.py -r 
+
+    "YOU DIED" - Dark Souls.
+
+```
+
 ## Installation
 Generate random quotes upon terminal login via Bash by adding execution path to the .bashrc file:
 
